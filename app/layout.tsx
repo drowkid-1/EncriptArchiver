@@ -27,28 +27,28 @@ export default function RootLayout({
         <footer className="bottom-0 border-t inset-2x-0 border-zinc-500/10">
           <div className="flex flex-col gap-1 px-6 py-12 mx-auto text-xs text-center text-zinc-700 max-w-7xl lg:px-8">
             <p>
-              Built by{" "}
-              <Link href="https://twitter.com/chronark_" className="font-semibold duration-150 hover:text-zinc-200">
-                @chronark_
+              Creado por{" "}
+              <Link href="https://twitter.com/drowkid1" className="font-semibold duration-150 hover:text-zinc-200">
+                @drowkid1
               </Link>
-              and{" "}
+              By{" "}
               <Link
-                href="https://github.com/chronark/envshare/graphs/contributors"
+                href="https://github.com/drowkid-1/EncriptArchiver"
                 className="underline duration-150 hover:text-zinc-200"
               >
-                many others{" "}
+                DrowKid{" "}
               </Link>
             </p>
             <p>
-              EnvShare is deployed on{" "}
+              EncriptArchiver{" "}
               <Link target="_blank" href="https://vercel.com" className="underline duration-150 hover:text-zinc-200">
-                Vercel
+                es de código abierto, 
               </Link>{" "}
-              and uses{" "}
+              por ende, puedes{" "}
               <Link target="_blank" href="https://upstash.com" className="underline duration-150 hover:text-zinc-200">
-                Upstash
+                crear tu versión personalizada 
               </Link>{" "}
-              for storing encrypted data.
+              partiendo de mi estructura inicial.
             </p>
           </div>
         </footer>
