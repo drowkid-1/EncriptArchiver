@@ -1,3 +1,5 @@
+![Picsart_23-07-19_00-25-13-610](https://github.com/drowkid-1/arch/assets/135056994/7a18c65c-2583-42a9-b099-8cfc54561c66)
+
 <div align="center">
     <h1 align="center">EncriptArchiver</h1>
     <h5>EncriptArchiver: Encripta tus archivos con protocolos AES-GCM</h5>
