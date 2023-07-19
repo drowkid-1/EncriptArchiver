@@ -14,7 +14,7 @@ const navigation = [
   },
 
   {
-    name: "Clonar EncriptArchiver",
+    name: "Clonar",
     href: "/deploy",
   },
   {
