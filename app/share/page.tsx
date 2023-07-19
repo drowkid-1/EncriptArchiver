@@ -59,7 +59,7 @@ export default function Home() {
 
       {link ? (
         <div className="flex flex-col items-center justify-center w-full h-full mt-8 md:mt-16 xl:mt-32">
-          <Title>Share this link with others</Title>
+          <Title>Comparte tu enlace con terceros.</Title>
           <div className="relative flex items-stretch flex-grow mt-16 focus-within:z-10">
             <pre className="px-4 py-3 font-mono text-center bg-transparent border rounded border-zinc-600 focus:border-zinc-100/80 focus:ring-0 sm:text-sm text-zinc-100">
               {link}
@@ -90,7 +90,7 @@ export default function Home() {
             onSubmit();
           }}
         >
-          <Title>Encrypt and Share</Title>
+          <Title>EncriptArchiver: Encripta tus archivos y compártelos.</Title>
 
           <pre className="px-4 py-3 mt-8 font-mono text-left bg-transparent border rounded border-zinc-600 focus:border-zinc-100/80 focus:ring-0 sm:text-sm text-zinc-100">
             <div className="flex items-start px-1 text-sm">
@@ -112,7 +112,7 @@ export default function Home() {
                 minLength={1}
                 onChange={(e) => setText(e.target.value)}
                 rows={Math.max(5, text.split("\n").length)}
-                placeholder="DATABASE_URL=postgres://postgres:postgres@localhost:5432/postgres"
+                placeholder="Claves, notas, documentos, archivos, keys, contraseñas, lo que requieras compartir. "
                 className="w-full p-0 text-base bg-transparent border-0 appearance-none resize-none hover:resize text-zinc-100 placeholder-zinc-500 focus:ring-0 sm:text-sm"
               />
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
                 className="flex items-center justify-center h-16 px-3 py-2 text-sm whitespace-no-wrap duration-150 border rounded hover:border-zinc-100/80 border-zinc-600 focus:border-zinc-100/80 focus:ring-0 text-zinc-100 hover:text-white hover:cursor-pointer "
                 htmlFor="file_input"
               >
-                Upload a file
+                Subir archivos
               </label>
               <input
                 className="hidden"
@@ -204,19 +204,16 @@ export default function Home() {
             <ul className="space-y-2 text-xs text-zinc-500">
               <li>
                 <p>
-                  <span className="font-semibold text-zinc-400">Reads:</span> The number of reads determines how often
-                  the data can be shared, before it deletes itself. 0 means unlimited.
+                  <span className="font-semibold text-zinc-400">Reads:</span> Número de vistas que tiene el documento antes de que se elimine. Al poner 0, el documento tendrá vistas ilimitadas.
                 </p>
               </li>
               <li>
                 <p>
-                  <span className="font-semibold text-zinc-400">TTL:</span> You can add a TTL (time to live) to the
-                  data, to automatically delete it after a certain amount of time. 0 means no TTL.
+                  <span className="font-semibold text-zinc-400">TTL:</span> Tiempo de vida del documento; 7 días, 5 minutos, 9 meses.
                 </p>
               </li>
               <p>
-                Clicking Share will generate a new symmetrical key and encrypt your data before sending only the
-                encrypted data to the server.
+                Al hacer clic en Compartir, se generará una nueva clave simétrica y se cifrarán sus datos antes de enviar solo la datos encriptados al servidor.
               </p>
             </ul>
           </div>
