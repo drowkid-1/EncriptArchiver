@@ -65,6 +65,25 @@ export const Testimonials = () => {
           <p>Sígueme → https://lalo.my.to/</p>
         </div>
       ),
+      link: "https://twitter.com/steventey/status/1615035241772482567?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615035241772482567%7Ctwgr%5E1db44bb10c690189e24c980fcd787299961c34c6%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fsteventey2Fstatus2F1615035241772482567widget%3DTweet", 
+      author: { 
+        name: <Author href="https://twitter.com/steventey">Steven Tey</Author>, 
+        title: <Title href="https://vercel.com">Senior Developer Advocate at Vercel</Title>, 
+        image: "https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg", 
+      }, 
+    }, 
+    { 
+      content: ( 
+        <div> 
+          <p> Congratulations on the launch <TwitterHandle>@chronark_</TwitterHandle>👏! This is such a valuable product for developers. Icing on the cake is that it's open source! ✨ </p> 
+        </div> 
+      ), 
+      link: "https://twitter.com/DesignSiddharth/status/1615293209164546048", 
+      author: 
+      { 
+        name: <Author href="https://twitter.com/DesignSiddharth">@DesignSiddharth</Author>, 
+        image: "https://pbs.twimg.com/profile_images/1613772710009765888/MbSblJYf_400x400.jpg", 
+      },
     },
   ];
 
