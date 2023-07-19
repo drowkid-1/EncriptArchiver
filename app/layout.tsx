@@ -31,7 +31,7 @@ export default function RootLayout({
               <Link href="https://lalo.my.to/" className="font-semibold duration-150 hover:text-zinc-200">
                 DrowKid
               </Link>
-             Made by{" "}
+             Made by {" "}
               <Link
                 href="https://github.com/drowkid-1/EncriptArchiver"
                 className="underline duration-150 hover:text-zinc-200"
@@ -40,13 +40,13 @@ export default function RootLayout({
               </Link>
             </p>
             <p>
-              Antes de usar EncriptArchiver, lee: {" "}
-              <Link target="_blank" href="https://vercel.com" className="underline duration-150 hover:text-zinc-200">
-                Política de Privacidad ,
+              Antes de usar EncriptArchiver, lee la: {" "}
+              <Link target="_blank" href="https://drowk.github.io" className="underline duration-150 hover:text-zinc-200">
+                Política de Privacidad.
               </Link>{" "}
-              Términos de uso y condiciones, {" "}
-              <Link target="_blank" href="https://upstash.com" className="underline duration-150 hover:text-zinc-200">
-               Protección de datos del usuario.
+              y los {" "}
+              <Link target="_blank" href="https://drowk.github.io" className="underline duration-150 hover:text-zinc-200">
+               Términos y condiciones.
               </Link>{" "}
               Recuerda que tu seguridad es prioridad, y que nunca dejes de aprender.
             </p>
