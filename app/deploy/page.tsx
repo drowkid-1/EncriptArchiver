@@ -9,7 +9,7 @@ const steps: {
   cta?: React.ReactNode;
 }[] = [
   {
-    name: "Create a new Redis database on Upstash",
+    name: "Crea tu versión personalizada de EncriptArchiver",
     description: (
       <>
         Upstash offers a serverless Redis database with a generous free tier of up to 10,000 requests per day. That's
