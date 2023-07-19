@@ -15,18 +15,18 @@ export const Stats = asyncComponent(async () => {
 
   const stats = [
     {
-      label: "Documents Encrypted",
+      label: "Archivos Encriptados",
       value: writes,
     },
     {
-      label: "Documents Decrypted",
+      label: "Archivos Desencriptados",
       value: reads,
     },
   ] satisfies { label: string; value: number }[];
 
   if (stars) {
     stats.push({
-      label: "GitHub Stars",
+      label: "Sígueme en GitHub",
       value: stars,
     });
   }
