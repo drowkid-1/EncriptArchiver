@@ -65,11 +65,11 @@ export default function Unseal() {
             <div className="text-sm text-center text-zinc-600">
               {remainingReads > 0 ? (
                 <p>
-                  This document can be read <span className="text-zinc-100">{remainingReads}</span> more times.
+                  Documento disponible para su lectura. <span className="text-zinc-100">{remainingReads}</span> more times.
                 </p>
               ) : (
                 <p className="text-zinc-400">
-                  This was the last time this document could be read. It was deleted from storage.
+                  Esta fue la última vez que se pudo leer este documento. Se eliminó del almacenamiento.
                 </p>
               )}
             </div>
@@ -100,7 +100,7 @@ export default function Unseal() {
               type="button"
               className="relative inline-flex items-center px-4 py-2 -ml-px space-x-2 text-sm font-medium duration-150 border rounded text-zinc-300 border-zinc-300/40 hover:border-zinc-300 focus:outline-none hover:text-white"
             >
-              Share another
+              Compartir otro
             </Link>
             <button
               type="button"
@@ -127,7 +127,7 @@ export default function Unseal() {
             onSubmit();
           }}
         >
-          <Title>Decrypt a document</Title>
+          <Title>Desencriptar documentos</Title>
 
           <div className="px-3 py-2 mt-8 border rounded border-zinc-600 focus-within:border-zinc-100/80 focus-within:ring-0 ">
             <label htmlFor="id" className="block text-xs font-medium text-zinc-100">
