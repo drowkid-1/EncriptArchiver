@@ -27,16 +27,16 @@ export default function RootLayout({
         <footer className="bottom-0 border-t inset-2x-0 border-zinc-500/10">
           <div className="flex flex-col gap-1 px-6 py-12 mx-auto text-xs text-center text-zinc-700 max-w-7xl lg:px-8">
             <p>
-              Copyright by {" "}
+             | Copyright by {" "}
               <Link href="https://lalo.my.to/" className="font-semibold duration-150 hover:text-zinc-200">
-                DrowKid
+                DrowKid. | 
               </Link>
-             Made by {" "}
+             | Made &nbsp{" "}
               <Link
                 href="https://github.com/drowkid-1/EncriptArchiver"
                 className="underline duration-150 hover:text-zinc-200"
               >
-                DrowKid {" "}
+              by DrowKid |{" "}
               </Link>
             </p>
             <p>
