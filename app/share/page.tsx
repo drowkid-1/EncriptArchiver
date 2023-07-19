@@ -90,7 +90,7 @@ export default function Home() {
             onSubmit();
           }}
         >
-          <Title>EncriptArchiver: Encripta tus archivos y compártelos.</Title>
+          <Title>Encriptar archivos</Title>
 
           <pre className="px-4 py-3 mt-8 font-mono text-left bg-transparent border rounded border-zinc-600 focus:border-zinc-100/80 focus:ring-0 sm:text-sm text-zinc-100">
             <div className="flex items-start px-1 text-sm">
