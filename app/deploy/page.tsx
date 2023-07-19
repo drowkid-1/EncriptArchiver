@@ -10,7 +10,7 @@ const steps: {
 }[] = [
   {
     name: "Crea tu versión personalizada de EncriptArchiver",
-    description:
+    description: (
       <>
         Sólo necesitas crear una database, copiar las claves que te da la database y desplegar el proyecto en Vercel.
         <br />
