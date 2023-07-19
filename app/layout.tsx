@@ -27,28 +27,28 @@ export default function RootLayout({
         <footer className="bottom-0 border-t inset-2x-0 border-zinc-500/10">
           <div className="flex flex-col gap-1 px-6 py-12 mx-auto text-xs text-center text-zinc-700 max-w-7xl lg:px-8">
             <p>
-              Creado por{" "}
-              <Link href="https://twitter.com/drowkid1" className="font-semibold duration-150 hover:text-zinc-200">
-                @drowkid1
+              Copyright by {" "}
+              <Link href="https://lalo.my.to/" className="font-semibold duration-150 hover:text-zinc-200">
+                DrowKid
               </Link>
-              By{" "}
+             Made by{" "}
               <Link
                 href="https://github.com/drowkid-1/EncriptArchiver"
                 className="underline duration-150 hover:text-zinc-200"
               >
-                DrowKid{" "}
+                DrowKid {" "}
               </Link>
             </p>
             <p>
-              EncriptArchiver{" "}
+              Antes de usar EncriptArchiver, lee: {" "}
               <Link target="_blank" href="https://vercel.com" className="underline duration-150 hover:text-zinc-200">
-                es de código abierto, 
+                Política de Privacidad ,
               </Link>{" "}
-              por ende, puedes{" "}
+              Términos de uso y condiciones, {" "}
               <Link target="_blank" href="https://upstash.com" className="underline duration-150 hover:text-zinc-200">
-                crear tu versión personalizada 
+               Protección de datos del usuario.
               </Link>{" "}
-              partiendo de mi estructura inicial.
+              Recuerda que tu seguridad es prioridad, y que nunca dejes de aprender.
             </p>
           </div>
         </footer>
