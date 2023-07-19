@@ -39,22 +39,22 @@ export const Testimonials = () => {
       content: (
         <div>
           <p>
-            Sígueme en mis redes: https://lalo.my.to/:
+            EncriptArchiver es una herramienta online que permite tener un mayor control cuando se requiere compartir algún documento, archivo, cuenta, contraseña etc.
           </p>
           <p>
-            Gran parte de mis trabajos, apps, proyectos o herramientas son de código abierto, esto quiere decir que cualquiera puede crear una versión personalizada partiendo de la estructura inicial del mismo.
+            ¿Cómo lo logra?, muy sencillo, déjame te explico.
           </p>
           <br />
-          <p>Puedes acceder a ellos ingresando a mi perfil de GitHub..</p>
+          <p>Encripta tu documento con un protocolo AES-GCM, sí, con la misma estructura que un proxy pues al subir tu archivo o escribirlo, genera automáticamente un enlace el cual al ingresar, va a redireccionar a este sitio con un ID el cual es el único que podrá desencriptar el archivo y contiene dígitos y letras que sumadas son alrededor de 15.</p>
           <br />
-          <p>Nunca dejes de Aprender.👏</p>
+          <p>El ID se genera aleatoriamente y no guardamos los mismos, no tenemos tanto espacio.👏</p>
         </div>
       ),
       link: "https://lalo.my.to",
       author: {
         name: <Author href="https://lalo.my.to">DrowKid</Author>,
-        title: <Title href="#">CEO @discreet</Title>,
-        image: "https://avatars.githubusercontent.com/u/135056994?s=400&u=3eec480692fa060d584e295bc9ca61dc904a991e&v=4",
+        title: <Title href="#">CEO @drowkid-1</Title>,
+        image: "https://avatars.githubusercontent.com/u/127297730?v=4",
       },
     },
     {
@@ -62,26 +62,26 @@ export const Testimonials = () => {
         <div>
           <p>Soy DrowKid y soy disque desarrollador y disque programador pero cuando tengo ganas.</p>
   
-          <p>Sígueme → https://lalo.my.to/</p>
+          <p>Tengo otras herramientas como chatbots, traductores de codigos html python etc, generadores ccs y de correos y más..</p>
         </div>
       ),
-      link: "https://drowkid.bswc.net", 
+      link: "https://github.com/drowkid-1/", 
       author: { 
-        name: <Author href="#">Página web de</Author>, 
-        title: <Title href="#">DrowKid</Title>, 
+        name: <Author href="https://github.com/drowkid-1/">GitHub</Author>, 
+        title: <Title href="https://instagram.com/lalo_01dk/">Instagram</Title>, 
         image: "https://avatars.githubusercontent.com/u/127297730?v=4", 
       }, 
     }, 
     { 
       content: ( 
         <div> 
-          <p> GitHub: <TwitterHandle> drowkid-1</TwitterHandle>👏!  O haz click en: </p> 
+          <p> Puedes checar mis apps para android en <TwitterHandle>drowapps.bswc.net</TwitterHandle>👏!  O haz click en: </p> 
         </div> 
       ), 
-      link: "https://avatars.githubusercontent.com/u/127297730?v=4", 
+      link: "https://drowapps.bswc.net", 
       author: 
       { 
-        name: <Author href="https://github.com/drowkid-1/">@DesignSiddharth</Author>, 
+        name: <Author href="https://drowapps.bswc.net/">DrowApps</Author>, 
         image: "https://avatars.githubusercontent.com/u/127297730?v=4", 
       },
     },
