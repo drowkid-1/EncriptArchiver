@@ -10,11 +10,11 @@ const steps: {
 }[] = [
   {
     name: "Crea tu versión personalizada de EncriptArchiver",
-    description: (
+    description:
       <>
-        Sólo necesitas clonar el repositorio principal, desplegar el proyecto en Vercel y crear una database en Uptash.
+        Sólo necesitas crear una database, copiar las claves que te da la database y desplegar el proyecto en Vercel.
         <br />
-        En menos de 15 minutos puedes hacerlo.
+        En menos de 15 minutos puedes hacerlo. <br /> Empecemos por:
       </>
     ),
     cta: (
@@ -28,23 +28,23 @@ const steps: {
     ),
   },
   {
-    name: "Copy the REST connection credentials",
+    name: "Copia las claves de acceso y pegalas en vercel.",
     description: (
       <p>
         Después de crear la database, debes copiar: <code>UPSTASH_REDIS_REST_URL</code> y{" "}
-        <code>UPSTASH_REDIS_REST_TOKEN</code>.
+        <code>UPSTASH_REDIS_REST_TOKEN</code>, después, clonar el repositorio en GitHub.
       </p>
     ),
   },
   {
-    name: "Crea tu Versión de EncriptArchiver",
-    description: "Clona el repositorio, después despliega el mismo en vercel pegando las claves que te indique en el paso anterior.",
+    name: "Desplegar en Vercel y pegar las claves.",
+    description: "Después de haber clonado el repositorio en GitHub, entra a vercel, importa el proyecto, pega las claves y en 5 minutos tendrás tu versión de EncriptArchiver.",
     cta: (
       <Link
         href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchronark%2Fenvshare&env=UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN&demo-title=Share%20Environment%20Variables%20Securely&demo-url=https%3A%2F%2Fcryptic.vercel.app"
         className="flex items-center justify-center w-full gap-2 px-4 py-2 text-sm text-center transition-all duration-150 rounded text-zinc-800 hover:text-zinc-100 bg-zinc-200 hover:bg-transparent ring-1 ring-zinc-100"
       >
-        <span>Deploy</span>
+        <span>Entrar a Vercel</span>
         <ArrowTopRightOnSquareIcon className="w-4 h-4" />
       </Link>
     ),
