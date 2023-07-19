@@ -12,10 +12,9 @@ const steps: {
     name: "Crea tu versión personalizada de EncriptArchiver",
     description: (
       <>
-        Upstash offers a serverless Redis database with a generous free tier of up to 10,000 requests per day. That's
-        more than enough.
+        Sólo necesitas clonar el repositorio principal, desplegar el proyecto en Vercel y crear una database en Uptash.
         <br />
-        Click the button below to sign up and create a new Redis database on Upstash.
+        En menos de 15 minutos puedes hacerlo.
       </>
     ),
     cta: (
@@ -23,7 +22,7 @@ const steps: {
         href="https://console.upstash.com/redis"
         className="flex items-center justify-center w-full gap-2 px-4 py-2 text-sm text-center transition-all duration-150 rounded text-zinc-800 hover:text-zinc-100 bg-zinc-200 hover:bg-transparent ring-1 ring-zinc-100"
       >
-        <span>Create Database</span>
+        <span>Crear Database</span>
         <ArrowTopRightOnSquareIcon className="w-4 h-4" />
       </Link>
     ),
@@ -32,14 +31,14 @@ const steps: {
     name: "Copy the REST connection credentials",
     description: (
       <p>
-        After creating the database, scroll to the bottom and make a note of <code>UPSTASH_REDIS_REST_URL</code> and{" "}
-        <code>UPSTASH_REDIS_REST_TOKEN</code>, you need them in the next step
+        Después de crear la database, debes copiar: <code>UPSTASH_REDIS_REST_URL</code> y{" "}
+        <code>UPSTASH_REDIS_REST_TOKEN</code>.
       </p>
     ),
   },
   {
-    name: "Deploy to Vercel",
-    description: "Deploy the app to Vercel and paste the connection credentials into the environment variables.",
+    name: "Crea tu Versión de EncriptArchiver",
+    description: "Clona el repositorio, después despliega el mismo en vercel pegando las claves que te indique en el paso anterior.",
     cta: (
       <Link
         href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchronark%2Fenvshare&env=UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN&demo-title=Share%20Environment%20Variables%20Securely&demo-url=https%3A%2F%2Fcryptic.vercel.app"
@@ -55,9 +54,9 @@ const steps: {
 export default function Deploy() {
   return (
     <div className="container px-8 mx-auto mt-16 lg:mt-32 ">
-      <Title>Deploy EnvShare for Free</Title>
+      <Title>Crea tu versión EncriptArchiver</Title>
       <p className="mt-4 text-sm text-center text-zinc-600">
-        You can deploy your own hosted version of EnvShare, you just need an Upstash and Vercel account.
+        Rápido, fácil, gratuito.
       </p>
       <ol className="flex flex-col items-center justify-center mt-8 md:mt-16 xl:mt-24">
         {steps.map((step, stepIdx) => (
